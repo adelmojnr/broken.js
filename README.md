@@ -1,7 +1,7 @@
 ## How to use?
 
 ```bash
-npm i broken.js
+$ npm i broken.js
 ```
 For encypting data:
 
