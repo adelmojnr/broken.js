@@ -1,12 +1,12 @@
 ## How to use?
 
 ```bash
-$ npm i broken.js
+$ npm i brokenjs
 ```
 For encrypting data:
 
 ```javascript
-const broken = require('broken.js')
+const broken = require('brokenjs')
 
 broken.encrypt('test_encrypt_music_with_brokenjs',
                'broken_js_teste1',
@@ -16,7 +16,7 @@ broken.encrypt('test_encrypt_music_with_brokenjs',
 For decrypting data:
 
 ```javascript
-const broken = require('broken.js')
+const broken = require('brokenjs')
 
 broken.decrypt('test_encrypt_music_with_brokenjs',
                'broken_js_teste1',
