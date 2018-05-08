@@ -20,7 +20,7 @@ const broken = require('brokenjs')
 
 broken.decrypt('test_encrypt_music_with_brokenjs',
                'broken_js_teste1',
-               'music.mp3',
-               'encrypted.mp3')
+               'encrypted.mp3',
+               'music.mp3')
 ```
 
