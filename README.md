@@ -16,10 +16,11 @@ broken.encrypt('test_encrypt_music_with_brokenjs',
 ## Docs
 
 ### .encrypt(password, iv, fileSource, fileOutput)
-**Parameter:** password **Type:** String **Ex:** test_encrypt_music_with_brokenjs
-**Parameter:** iv **Type:** String **Ex:** broken_js_teste1
-**Parameter:** fileSource **Type:** String **Ex:** music.mp3
-**Parameter:** fileOutput **Type:** String **Ex:** encrypted.mp3
+
+**Parameter:** `password` **Type:** `String` **Ex:** `test_encrypt_music_with_brokenjs`
+**Parameter:** `iv` **Type:** `String` **Ex:** `broken_js_teste1`
+**Parameter:** `fileSource` **Type:** `String` **Ex:** `music.mp3`
+**Parameter:** `fileOutput` **Type:**` String` **Ex:** `encrypted.mp3`
 
 For decrypting data:
 
@@ -34,10 +35,10 @@ broken.decrypt('test_encrypt_music_with_brokenjs',
 ## Docs
 
 ### .decrypt(password, iv, fileSource, fileOutput)
-**Parameter:** password **Type:** String **Ex:** test_encrypt_music_with_brokenjs
 
-**Parameter:** iv **Type:** String **Ex:** broken_js_teste1
+**Parameter:** `password` **Type:** ``String`` **Ex:** `test_encrypt_music_with_brokenjs`
+**Parameter:** `iv` **Type:** `String` **Ex:** `broken_js_teste1`
+**Parameter:** `fileSource` **Type:** `String` **Ex:** `encrypted.mp3`
+**Parameter:** `fileOutput` **Type:** `String` **Ex:** `music.mp3`
 
-**Parameter:** fileSource **Type:** String **Ex:** encrypted.mp3
 
-**Parameter:** fileOutput **Type:** String **Ex:** music.mp3
