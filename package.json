@@ -1,5 +1,5 @@
 {
-  "name": "broken.js",
+  "name": "brokenjs",
   "version": "1.0.0",
   "description": "A simple module for encrypting data",
   "main": "lib/broken",
